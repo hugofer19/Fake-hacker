@@ -19,7 +19,7 @@ def Hacker():
     print(Fore.BLUE + 'O ip do ' + site + ' é ' +
           Fore.YELLOW + ip + Fore.BLUE + '.')
     time.sleep(1)
-    i = int(input(Fore.WHITE + "Insere o número de linhas que desejas codificar: "))
+    i = int(input(Fore.WHITE + "Insere o número de linhas que desejas codificar: ")) + 1
     while i > 1:
         i -= 1
         letras = string.ascii_lowercase
